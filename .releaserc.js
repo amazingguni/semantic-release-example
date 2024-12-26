@@ -7,7 +7,7 @@ module.exports = {
       {
         // 커밋 메시지 규칙을 Gitmoji로 설정
         releaseRules: [
-          // Gitmoji와 커밋 타입을 매핑
+          // Gitmoji와 커밋 타입을 매
           { type: '✨', release: 'minor' },  // 새로운 기능 추가
           { type: '🐛', release: 'patch' },  // 버그 수정
           { type: '⚡️', release: 'patch' },  // 성능 개선
